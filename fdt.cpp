@@ -14,9 +14,8 @@ Fdt::~Fdt() {
 
 double Fdt::obtenerSalidaFdt(double xk_p) {
     double salida;
-    // Comentarios que se deben borar para la corrección
-    //    vectorYk_.shiftVector();
-    //    vectorXk_.shiftVector();
+    vectorYk_.shiftVector();
+    vectorXk_.shiftVector();
     vectorXk_.setPosValue(0,xk_p);
     salida= (vectorXk_.productoEscalar(num_)- vectorYk_.productoEscalar(den_)) /factorInitial;
     vectorYk_.setPosValue(0,salida);
