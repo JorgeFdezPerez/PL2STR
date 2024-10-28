@@ -4,6 +4,7 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+    fdt.cpp \
     main.cpp
 
 HEADERS += \
