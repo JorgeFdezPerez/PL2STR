@@ -5,7 +5,8 @@ CONFIG -= qt
 
 SOURCES += \
     fdt.cpp \
-    main.cpp
+    main.cpp \
+    vector.cpp
 
 HEADERS += \
     fdt.h \
