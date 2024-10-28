@@ -22,13 +22,12 @@ void Vector::setValueInitial( double valueInitial ){
         vector_[i] = valueInitial;
 }
 
-/*
 void Vector::printVector() {
     for (int i=0; i < dim_; i++)
         cout<<"  v["<<i<<"]= "<<vector_[i];
     cout<<endl;
 }
-*/
+
 void Vector::shiftVector(void ){
     for (int i= dim_ -1; i > 0; i--){
         vector_[i]=vector_[i-1];
