@@ -7,4 +7,5 @@ SOURCES += \
     main.cpp
 
 HEADERS += \
+    fdt.h \
     vector.h
